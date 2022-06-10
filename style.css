@@ -1,0 +1,112 @@
+#header{
+    width: 70vw;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+#header >ul> span{
+    margin-top: 20px;
+    margin-left: 13vw;
+    font-size: larger;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+#header > ul {
+    display: flex;
+
+}
+
+#header > ul > li{
+    margin: 0 3vw;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+#header > ul > li > i{
+    margin-right: 10px;
+}
+
+#header > ul > li:hover{
+color: ORANGE;
+}
+
+#header >ul> span:hover{
+    color: orange;
+}
+
+#header > img{
+    height: 50px;
+    width: 30px;
+}
+
+#container{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(37, 37, 54);
+}
+
+#container > .banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#container > .banner > img{
+    height: 35vh;
+    width: 20vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+}
+
+#container > .banner > img:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+
+
+#order{
+    display: grid;
+    margin: 10vh 4vw;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+#order > .card{
+    margin: 0 2vw;
+    border: 0px;
+}
+
+#order > .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#restaurants{
+    height: 7vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh auto;
+}
+
+#restaurants>ul{
+    display: flex;
+    list-style: none;
+    
+}
+#restaurants>ul>li{
+    margin: 0 2vw;
+}
+
+#restaurants>h3{
+    margin-left: 3vw;
+}
