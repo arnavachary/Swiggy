@@ -47,6 +47,12 @@ color: ORANGE;
     width: 30px;
 }
 
+#logo:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
 #container{
     width: 100%;
     height: 50vh;
@@ -69,8 +75,6 @@ color: ORANGE;
     transform: scale(1.1);
     transition-duration: 2s;
 }
-
-
 
 #order{
     display: grid;
