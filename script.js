@@ -1,9 +1,10 @@
-/* Open when someone clicks on the span element */
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+
+const sidebar = document.getElementById("sidebar")
+
+function closeSidebar(){
+  sidebar.style.display="none"
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-  document.getElementById("myNav").style.width = "100%";
+function openSidebar(){
+  sidebar.style.display="block"
 }
