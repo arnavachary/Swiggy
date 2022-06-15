@@ -115,6 +115,12 @@ color: ORANGE;
     margin-left: 3vw;
 }
 
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
   height: 100%;
@@ -169,4 +175,36 @@ color: ORANGE;
     top: 15px;
     right: 35px;
   }
+}
+
+.location>a, .location>h5{
+    margin: 0;
+    color: gray;
+}
+
+.location>h5{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: medium;
+    margin: 0;
+}
+
+
+.location>a:hover{color: orange}
+.location>h5:hover{color: orange}
+
+#dropdownIcon{
+    font-size: 30px;
+    margin: 0 2px;
+    color: orange;
+}
+
+#sidebar{
+    width: 22vw;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
