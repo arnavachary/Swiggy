@@ -13,6 +13,8 @@
 
 </head>
 <body>
+
+ 
     <nav id="header">
           <img id="logo"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAACFCAMAAAAD3HT0AAAAZlBMVEX8gBn////8eQD8ewD8dwD8dAD8fQr/9fH9nmf8cQD8mFv8fxT8bgD8lVX+vpz/+fb+4ND/7+j9vqH9q3z+xqr9uZX9sor8kET8hy7+zLH+2MT+5tr9pXD9qHb8giX+0bv8iTr9k00rvMDVAAAFBklEQVRogbWa2baqMAyGOyNUBTaKIuLw/i95mFSkU4Kc/3Iv++2sNLQZSihEdbUvktOZEHI+JcW+qkGrSPAX9/K8lYwrrUknrRVncnsr7ulv7LRKtoIP0G9pLra7gx/vY9dFLJSF+5IScePzjpudJTH3gEd8/Lyg2XUifSZP6PKZodhRASQP9GsOZ98JA5M7cV4B2WkjbZHhkxYbi+kmu37gjB5Nv5leN9h3Bvf0t+mHEPtPYP3xlij97FIsJXfwwsf+Cd3CGzf7R/Tc8in78Cu6hR/t7MvvaELk3cau2eIImUiL2sI+LYvrudTZZBdLvkabWDNnZ/FKaELiy4x9W8PZg/Ttm31cyyOd2HHKztfzSKc4n7Cb8M34lmYs9GvefNgYs9XjnpUhDw6G9+wCYbbqlpWBBbx4sVOJQCd9xIYMl+nI/kMEidqA2Owwss+I2Aay9WNg15gABPqk382WfUTsJJjN9j0b4xIwu3MKodEWgQazyTZt2RXqugGzxb1lh76DhWxetuwT6nQFs/WzZeOOQDCbxJRE/40dkRpxmKDYMiPIrATO3takwt1matezg7Gltm2cHNZnd7Xnpk2ByB8qvF9sh0FDzUyKqi9ql7HpLhbttfkWY0wIGcckKQ/Zu1gmh0VsGmXVYV8WRdMURXn8O1SXLJ9X4Mv8DRO5I2MQw86Q3w6GjUyp9AnBpqirobusIrtSo5lCqEZmsEwKi5i6PZ6b4niZRAuhm3XqBaKHbpM8lfWbvccFePh/MHGNRvYq5dm3uKoHdorcTIg0G/PBFcuRt8R+YGMyZKj6T6xlI796IHxg/w+HEzmw6WN9h2s9slGJLEzqObJRCThMvBzZ6CMlLFHRBXUaTH0R2LOR9wNAnL7YqztFNR82LgcPa+hD/pdeQZvDftj0uapT9JNO2LiiJ6SuAPyw0zV7M9/9k3V3c3TJm52vGOKvbvW7h3ddz3ARzdjIuscjdaUz9nqGy8xg1yuF4SdjnPSRgx0umERlYUerJBOapBY2vayxnewz0fiaCexXgLPczm7hjCvVZaROBdB8MoiZzWDyfZE8O+12SZJsTCWB7r7Ineywcm97i08HJWi2v509NXsBe+9hM+d853c2j/4b+2ty5Gfn2b3661VdPn50szX5MtvFvhw3ZBu31V7fbGBdj+G0TwPs+QTTxs4bKbmah5pmsvayjZLZxr45TnJ+9bLFfFJvY7u6kcrL5ps5x8Z2rQ6wjUm31d+O1HPwiWOCwI4GxxonjrndMLax260f5psOKzs3gmRgF262sZEutuPq9LD51UJxvLUgNsOHc9/G1sT22sLxXVrH0szJNt8UeNjWCe8QCpY4cTTIXOzMYvjgbzPj1WZoe9m2ONSkPVBqM4uxe8TDTi3bqfX1av7Z2TJ0n9/WXpMyI18zu0e8d8MGltgK63ucADsFPTQwjz8Im94BKdzQ9cKzIV6R7qdbgXs+aDgrPKv97EugFtdn3+pAfhIogmJX+EHY1H6Sv5ztDD8Q2/e+g9kObQTb877I72wImz5cpYL0OhvEdlX601dDS9n0YIUbL8wWsa2fJwfMYiBsy82sdRReB8rtzf6hhLy+hdUN+1kgSscttoRNd18uB+wjgh1N00+ewBZBa6lJH0GdAfuIYdPjy+Vahb5HNJsmo8t9N81S9ti6gYUIkj2kccAQwbK7g4W5M4bf2LSRiKkrtp6/Bt/BT/UP4eY/Qz4eQZ4AAAAASUVORK5CYII=" alt="">
           <ul>
@@ -24,6 +26,24 @@
             <li><i class="fa fa-shopping-cart"></i> Cart</li>
         </ul>
     </nav>
+
+  <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">open</span>
 
      <div id="container">
         <div class="banner">
@@ -185,7 +205,7 @@
     </div>
 
 
+    <script src="script.js"></script>
     
-      
 </body>
 </html>
